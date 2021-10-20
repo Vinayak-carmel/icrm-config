@@ -9,10 +9,6 @@ olive:
 two-factor:
   api-key: b3d3355a-199a-11eb-b380-0200cd936042
   sandbox-otp: 12345
-  # templates:
-    # phone-onboarding: olive-phone-onboarding
-    # forgot-password: olive-forgot-password
-
 
 auth:
   org-id: "c79ecc86-20b7-44b2-ab70-3db893e37725"
@@ -31,10 +27,6 @@ spring:
 logging:
   level:
     root: info
-    #org:
-      #hibernate:
-        #type: info
-        #SQL: debug
     com:
       carmel:
         olive: trace
