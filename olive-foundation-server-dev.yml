@@ -12,7 +12,7 @@ spring:
           jwk-set-uri: "http://68.183.95.228:7071/.well-known/jwks.json"
 
   datasource:
-    url: jdbc:mysql://68.183.95.228:3306/olive?createDatabaseIfNotExist=true&useLegacyDatetimeCode=false
+    url: jdbc:mysql://localhost:3306/olive?createDatabaseIfNotExist=true&useLegacyDatetimeCode=false
     username: dev
     password: P@ssw0rd
     driver-class-name: com.mysql.cj.jdbc.Driver
