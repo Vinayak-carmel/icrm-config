@@ -4,6 +4,8 @@ server:
 spring:
   application:
     name: electronic-forms-server
+  resources:
+    static-locations: classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/,file:/mnt/volume/apps/docker/eforms/
 
   security:
     oauth2:
